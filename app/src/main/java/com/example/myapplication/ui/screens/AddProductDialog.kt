@@ -105,7 +105,7 @@ fun AddProductDialog(
                     color = Color.Black
                 )
 
-                // 🔲 Estilos similares a Adidas para los campos de entrada
+                // 🔲 Estilos similares a Adidas para los campos de entradaaa
                 OutlinedTextField(
                     value = name,
                     onValueChange = { name = it },
@@ -156,7 +156,6 @@ fun AddProductDialog(
 
                 Spacer(modifier = Modifier.height(12.dp))
 
-                // 📸 Sección para tomar imagen (con borde más delgado y fondo gris claro)
                 Box(
                     modifier = Modifier
                         .fillMaxWidth()
@@ -223,7 +222,7 @@ fun AddProductDialog(
     }
 }
 
-// 🔹 Función para crear un archivo de imagen en almacenamiento accesible
+
 fun createImageFile(context: Context): File {
     val timeStamp: String = SimpleDateFormat("yyyyMMdd_HHmmss", Locale.US).format(Date())
     val storageDir: File? = context.getExternalFilesDir(Environment.DIRECTORY_PICTURES)
